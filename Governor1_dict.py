@@ -7,6 +7,7 @@ age = input("what is your age? ")
 # ask user  for favorite color
 Fav_color = input("what is your favorite? ")
 
+# create a dictionery containing the user details
 Governor1 = {"name":  "Governor1", "age":  42, "Fav_color": "Blue"}
 
 print(Governor1)

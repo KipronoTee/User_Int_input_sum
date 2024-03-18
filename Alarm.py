@@ -1,14 +1,13 @@
-wake_up_time = 7.00  # You can set this to any time
+# define day time and weekends
+day_time = 6.30
+is_weekend = day_time < 6.30
 
-day_time = wake_up_time
-is_weekend = wake_up_time < 7.00
-
-#if weekend
+#set the condition for wake up time and weekend
 
 if is_weekend:
-    print("Is weekend (it's weekend!)")
+    print("Sleep in (it's weekend!)")
 
-elif day_time >= wake_up_time:
-    print(f"Wake up at {wake_up_time:.2f}")  # Format for two decimal places
+elif day_time >= 6.30:
+    print(f"Wake up at {day_time:.2f}")  # Format for two decimal places
 else:
     print("Sleep in")

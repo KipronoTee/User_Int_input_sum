@@ -1,5 +1,8 @@
+# Week 3 Assignment
+# Create a function named calculate_discount(price, discount_percent) that calculates the final price after applying a discount
+
 bill = int(input("Enter original price:"  ))
-discount_rate = 20 #as a percentage
+discount_rate = 20 #As a percentage
 # calculate discounted amount
 discount_amount = bill * discount_rate/100
 

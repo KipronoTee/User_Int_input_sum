@@ -3,7 +3,8 @@ discount_rate = 20 #as a percentage
 # calculate discounted amount
 discount_amount = bill * discount_rate/100
 
-if discount_amount >= 0.2 * bill: #Check if dosucount is 20%
+#Check if dosucount is 20%
+if discount_amount >= 0.2 * bill: 
     print("discount applied")
     final_bill = bill - discount_amount
 else:
